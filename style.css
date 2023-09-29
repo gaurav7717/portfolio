@@ -1,0 +1,232 @@
+* {
+  margin: 0 0 0 0;
+  background-color: #11141d;
+  box-sizing: border-box;
+  
+}
+.content
+{
+  margin-left: 5%;
+}
+i{
+    color: #a97efb;
+}
+.nav-btn1 {
+  color: aliceblue;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+.nav-btn2 {
+  background-color: #a97efb;
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+
+.head-title p {
+  font-size: x-large;
+  color: rgb(185, 185, 185);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.name-grid .row {
+  font-family: "Lilita One", cursive;
+  font-size: 50px;
+}
+.gaurav {
+  padding: 0% 25% 0 20%;
+}
+.gaurav .col {
+  padding: 0;
+  border: 1px solid white;
+  color: #a97efb;
+}
+.gaurav .col:hover
+{
+  background-color: black;
+  color: whitesmoke;
+  border: 0;
+  scale: 125%;
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+  
+}
+.pradhan {
+  padding: 0% 20% 0 25%;
+}
+.pradhan .col {
+  padding: 0;
+  border: 1px solid white;
+  color: #a97efb;
+}
+.pradhan .col:hover
+{
+  background-color: black;
+  color: whitesmoke;
+  border: 0;
+  scale: 125%;
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+
+
+
+
+ /* CSS for letter animation */
+
+.head-icon {
+  text-align: center;
+  padding-top: 16%;
+}
+.intro-sec
+{
+    padding: 8% 35%;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.intro-sec h2{
+    margin-top: 3%;
+    color: #BFC6D3;
+}
+.intro-sec p{
+    color: #7C8996;
+    margin-top: 5%;
+}
+.profile-pic
+{
+    width: 30%;
+    min-width: 20%;
+    margin-bottom: 5%;
+    height: auto;
+    border: 5px solid #a97efb;
+    
+    border-radius: 80%;
+}
+.profile-pic:hover
+{
+  scale:150%;
+  transition: .3s;
+  width: 30%;
+  min-width: 20%;
+  margin-bottom: 5%;
+  height: auto;
+  border: 5px solid #a97efb;
+  box-shadow: 0px 0px 20px 5px rgb(101, 101, 101);
+  
+  border-radius: 80%;
+  animation-name: prof_anim;
+  animation-duration: 2s;
+}
+
+
+
+.sidebar
+{
+  background-color:black;
+    text-align: center;
+    z-index: 1;
+    border: 1px solid grey;
+    /* border-radius: 30px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    
+    height: 100%;
+    box-shadow: 1px 1px 10px 1px #7C8996;
+
+}
+.sidebar.navlink
+{
+    color: whitesmoke;
+}
+.sidebar a{
+  background-color: black;
+    
+    width: 100%;
+}
+.pic-sec
+{
+
+  width: 60%;
+  display: grid;
+  flex-direction: row;
+  justify-content: space-around ;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+}
+
+.pic-sec .row .col img
+{
+  width: 100%;
+  border: 2px solid white;
+  
+}
+
+
+.contact
+{
+  background-image: linear-gradient(90deg,black 50%, #a97efb);
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding: 3% 3%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* flex-wrap: wrap;s */
+  border-radius: 10px;
+}
+@media (max-width:768px) {
+  .contact
+  {
+    flex-direction: column;
+    background-image: linear-gradient(180deg,black 50%, #a97efb);
+    text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  /* flex-wrap: wrap;s */
+  
+  }
+  
+}
+.contact-custom
+{
+  width: 50%;
+ 
+}
+.contact-custom,h2,p{
+  background-color: transparent;
+}
+.btns button
+{ width: 100%;
+
+}
+.btns
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-evenly;
+  background-color: transparent;
+  padding:15px ;
+}
+.btns .container
+{
+ /* margin: 10px 20px; */
+
+ background-color: white;
+ 
+}
+.btn:hover
+{
+  color: #a97efb;
+}
+
