@@ -150,26 +150,58 @@ i{
     
     width: 100%;
 }
-.pic-sec
-{
+.pic-sec{
+  display: flex;
 
-  width: 60%;
-  display: grid;
-  flex-direction: row;
-  justify-content: space-around ;
-  align-items: center;
   flex-wrap: wrap;
+  padding: 0 10px;
+  width: 75%;
   margin: 0 auto;
-  
 }
-
-.pic-sec .row .col img
+.pics
 {
-  width: 100%;
-  border: 2px solid white;
   
+  flex:33.33%;
+  max-width: 33.33%;
+  padding: 0 8px;
 }
-
+.pics img{
+  margin-top: 20px;
+  vertical-align: middle;
+  width: 100%;
+  object-fit:cover;
+  object-position: top;
+  border-radius: 30px;
+  border: 2px solid #a97efb;
+}
+#top-img1
+{
+  border-top-left-radius: 100px;
+}
+#top-img3
+{
+  border-top-right-radius: 100px;
+}
+#last-img1
+{
+  border-bottom-left-radius: 50%;
+}
+#last-img3
+{
+  border-bottom-right-radius: 50%;
+}
+@media screen and (max-width: 800px) {
+  .pics {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pics {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 .contact
 {
